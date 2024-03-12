@@ -33,11 +33,11 @@ const TranscriptAnalysisSection = (props) => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-x-10 w-[100%] rounded-l mt-5">
-        <div className="bg-app-layover rounded-l">
+      <div className="grid grid-cols-2 gap-x-10 w-[100%] rounded mt-5">
+        <div className="bg-app-layover rounded">
           <Timeline timelineData={timelineData} />
         </div>
-        <div className="grid grid-rows-3 gap-y-10  rounded-l">
+        <div className="grid grid-rows-3 gap-y-10  rounded">
           <div className="bg-app-layover w-[100%] h-[100%] ">
             <TonesAnalysis
               timelineData={timelineData}
@@ -50,17 +50,25 @@ const TranscriptAnalysisSection = (props) => {
               sentimentAnalysisFlag={true}
             />
           </div>
-          <div className="bg-app-layover w-[100%] h-[100%] overflow-auto">
-            <h1 className="text-white text-mg py-2 pl-5">Tones Analysis</h1>
-            {timelineData.map((item) => (
-              <TimelineCard
-                message={item.message}
-                duration={item.duration}
-                person={item.person}
-                role={item.role}
-              />
-            ))}
+          <div className="bg-app-layover w-[100%] h-[560px] overflow-auto">
+            <div>
+              <h1 className="text-white text-mg py-2 pl-5">Tones Analysis</h1>
+              {timelineData.map((item) => (
+                <TimelineCard
+                  message={item.message}
+                  duration={item.duration}
+                  person={item.person}
+                  role={item.role}
+                />
+              ))}
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="w-[100%] mt-5">
+        <div>
+          <h1 className="text-white text-xl py-5 pl-2">{title}</h1>
+          <div className="grid grid-cols-4 w-[100%] h-[130px] bg-app-layover rounded "></div>
         </div>
       </div>
     </div>

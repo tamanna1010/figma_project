@@ -10,7 +10,7 @@ const CallOverView = (props) => {
   return (
     <div>
       <h1 className="text-white text-xl py-5 pl-2">{title}</h1>
-      <div className="grid grid-cols-4 w-[100%] h-[130px] bg-app-layover rounded-l ">
+      <div className="grid grid-cols-4 w-[100%] h-[130px] bg-app-layover rounded ">
         <CallOverViewCards
           Icon={PhoneIcon}
           name={"#9867"}
