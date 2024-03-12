@@ -52,7 +52,10 @@ const TranscriptAnalysisSection = (props) => {
           </div>
           <div className="bg-app-layover w-[100%] h-[560px] overflow-auto">
             <div>
-              <h1 className="text-white text-mg py-2 pl-5">Tones Analysis</h1>
+              <h1 className="text-white text-mg py-2 pl-5">
+                {" "}
+                Key Observations Analysis
+              </h1>
               {timelineData.map((item) => (
                 <TimelineCard
                   message={item.message}
@@ -67,7 +70,9 @@ const TranscriptAnalysisSection = (props) => {
       </div>
       <div className="w-[100%] mt-5">
         <div>
-          <h1 className="text-white text-xl py-5 pl-2">{title}</h1>
+          <h1 className="text-white text-xl py-5 pl-2">
+            Detailed Performance Metrics
+          </h1>
           <div className="grid grid-cols-4 w-[100%] h-[130px] bg-app-layover rounded "></div>
         </div>
       </div>

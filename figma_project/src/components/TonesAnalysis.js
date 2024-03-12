@@ -20,7 +20,9 @@ const TonesAnalysis = ({ timelineData, sentimentAnalysisFlag }) => {
     : "grid-cols-[40%_60%]";
   return (
     <>
-      <h1 className="text-white text-mg py-2 pl-5">Tones Analysis</h1>
+      <h1 className="text-white text-mg py-2 pl-5">
+        {sentimentAnalysisFlag ? "Sentiments Analysis" : "Tones Analysis"}
+      </h1>
       <div className={`grid ${gridStyling} h-[500px] mt-5 mx-10`}>
         <div className={`${sentimentAnalysisFlag ? "flex" : ""}`}>
           {buttonArr.map((button) => (
