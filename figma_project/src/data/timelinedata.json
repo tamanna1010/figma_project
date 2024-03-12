@@ -1,0 +1,122 @@
+[
+  {
+    "message": "Hello?",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 3.7,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "Mr. Ritesh.",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 5.2,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "I'll make a payment",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 6.7,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "I'm",
+    "person": "Customer",
+    "role": "User",
+    "duration": 7.0,
+    "tones": "Satisfied",
+    "sentiments": "Neutral"
+  },
+  {
+    "message": "Come at 12 o'clock. You have blocked my WhatsApp",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 8.7,
+    "tones": "Sad",
+    "sentiments": "Negative"
+  },
+  {
+    "message": "I'm coming. I'm coming",
+    "person": "Customer",
+    "role": "User",
+    "duration": 8.8,
+    "tones": "Excited",
+    "sentiments": "Neutral"
+  },
+  {
+    "message": "No, no sir. Go on. Go on",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 12.5,
+    "tones": "Polite",
+    "sentiments": "Neutral"
+  },
+  {
+    "message": "Your data is not here. I am messaging you since morning. I am sending you the link",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 15.3,
+    "tones": "Frustrated",
+    "sentiments": "Negative"
+  },
+  {
+    "message": "Sir, my data is in the company. I'll send you the link now. Make the payment.",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 19.2,
+    "tones": "Sympathetic",
+    "sentiments": "Neutral"
+  },
+  {
+    "message": "Hello?",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 3.7,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "Mr. Ritesh.",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 5.2,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "I'll make a payment",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 6.7,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "I'm",
+    "person": "Customer",
+    "role": "User",
+    "duration": 7.0,
+    "tones": "Satisfied",
+    "sentiments": "Positive"
+  },
+  {
+    "message": "Come at 12 o'clock. You have blocked my WhatsApp",
+    "person": "Asha Kulkarni",
+    "role": "Agent",
+    "duration": 8.7,
+    "tones": "Sad",
+    "sentiments": "Negative"
+  },
+  {
+    "message": "I'm coming. I'm coming",
+    "person": "Customer",
+    "role": "User",
+    "duration": 8.8,
+    "tones": "Impolite",
+    "sentiments": "Neutral"
+  }
+]

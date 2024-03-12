@@ -23,7 +23,7 @@ const sidebarArray = [
 ];
 const Sidebar = () => {
   return (
-    <Card className="h-[100%] w-full max-w-[250px] p-4  bg-app-layover">
+    <Card className="h-[100vh] w-full max-w-[250px] p-4  bg-app-layover">
       <div className="mb-2 p-4">
         <div className="flex justify-between items-center">
           <Typography variant="h5" className="text-white">
