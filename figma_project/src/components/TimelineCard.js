@@ -1,8 +1,10 @@
 import { PlayCircleIcon } from "@heroicons/react/24/solid";
 const TimelineCard = (props) => {
-  const { message, person, role, duration } = props;
+  const { message, person, role, duration,sentimentAnalysisFlag } = props;
   return (
-    <div className="border border-none hover:border-solid border-[#B4B7BD] h-[100px] width-[90%] mx-10 p-2">
+    <div className={`relative border border-none hover:border-solid border-[#B4B7BD] h-[100px] width-[90%] ${sentimentAnalysisFlag===false?"mx-5":"mx-10"} p-2 mt-2`}>
+      <div className="absolute top-[-5px] left-[-5px] rounded-full bg-[#82868B] h-[12px] w-[12px]"/>
+      <div className="absolute top-0 left-0 bg-[#82868B] h-[104%] w-[1px]"/>
       <div className="flex justify-between">
         <p className="text-white text-sm  truncate hover:text-wrap">
           {message}

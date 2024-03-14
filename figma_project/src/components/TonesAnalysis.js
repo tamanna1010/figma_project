@@ -23,8 +23,8 @@ const TonesAnalysis = ({ timelineData, sentimentAnalysisFlag }) => {
       <h1 className="text-white text-mg py-2 pl-5">
         {sentimentAnalysisFlag ? "Sentiments Analysis" : "Tones Analysis"}
       </h1>
-      <div className={`grid ${gridStyling} h-[500px] mt-5 mx-10`}>
-        <div className={`${sentimentAnalysisFlag ? "flex" : ""}`}>
+      <div className={`grid ${gridStyling} h-[500px] mt-5 `}>
+        <div className={`mx-10 ${sentimentAnalysisFlag ? "flex" : ""}`}>
           {buttonArr.map((button) => (
             <Button
               name={button}
@@ -41,6 +41,7 @@ const TonesAnalysis = ({ timelineData, sentimentAnalysisFlag }) => {
               duration={item.duration}
               person={item.person}
               role={item.role}
+              sentimentAnalysisFlag ={sentimentAnalysisFlag}
             />
           ))}
         </div>

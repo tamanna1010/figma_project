@@ -26,10 +26,10 @@ const Sidebar = () => {
     <Card className="h-[100vh] w-full max-w-[250px] p-4  bg-app-layover">
       <div className="mb-2 p-4">
         <div className="flex justify-between items-center">
-          <Typography variant="h5" className="text-white">
+          <Typography variant="h5" className="text-[#7367F0]">
             Dummy
           </Typography>
-          <CogIcon className="h-5 w-5" color="white" />
+          <CogIcon className="h-5 w-5" color="#7367F0" />
         </div>
       </div>
       <List>
