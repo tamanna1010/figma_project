@@ -14,6 +14,7 @@ import {
   ChatBubbleBottomCenterIcon,
   CogIcon,
 } from "@heroicons/react/24/solid";
+import { userRestricedArr } from "../utils/data";
 const sidebarArray = [
   { Icon: HomeIcon, name: "Home" },
   { Icon: PhoneIcon, name: "Calls" },
@@ -21,7 +22,8 @@ const sidebarArray = [
   { Icon: HeartIcon, name: "Emotions" },
   { Icon: ChatBubbleBottomCenterIcon, name: "AI Chatbot" },
 ];
-const Sidebar = () => {
+const Sidebar = ({ role }) => {
+  console.log(role)
   return (
     <Card className="h-[100vh] w-full max-w-[250px] p-4  bg-app-layover">
       <div className="mb-2 p-4">
@@ -35,12 +37,14 @@ const Sidebar = () => {
       <List>
         {sidebarArray.map(({ Icon, name }) => {
           return (
-            <ListItem key={name}>
-              <ListItemPrefix>
-                <Icon className="h-5 w-5" color="white" />
-              </ListItemPrefix>
-              <p className="text-white">{name}</p>
-            </ListItem>
+            // (name === "Agents"|| name === "Emotions") && role === "user" ? null :
+            userRestricedArr.includes(name) && role === "user" ? null :
+              <ListItem key={name}>
+                <ListItemPrefix>
+                  <Icon className="h-5 w-5" color="white" />
+                </ListItemPrefix>
+                <p className="text-white">{name}</p>
+              </ListItem>
           );
         })}
       </List>

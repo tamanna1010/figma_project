@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <div className="App bg-app-background">
-      <Layout>
+      <Layout role="user">
         <Home />
       </Layout>
     </div>

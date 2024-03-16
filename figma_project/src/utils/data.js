@@ -42,3 +42,6 @@ export const data = [
     colour: "#FF9F43",
   },
 ];
+export const userRestricedArr =  [
+  "Agents",
+];
