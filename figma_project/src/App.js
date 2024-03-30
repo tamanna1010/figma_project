@@ -1,3 +1,4 @@
+import CRM from "./CRM.js";
 import "./App.css";
 import Home from "./components/Home";
 import Layout from "./components/Layout";
@@ -6,9 +7,10 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <div className="App bg-app-background">
-      <Layout>
+      {/* <Layout>
         <Home />
-      </Layout>
+      </Layout> */}
+      <CRM />
     </div>
   );
 }

@@ -9,7 +9,7 @@ module.exports = withMT({
       current: "currentColor",
       "success-call": "#28C76F",
       "app-layover": "#283046",
-      "app-background": "#161D31",
+      "app-background": "#F5F7FA",
       "sub-title": "#B4B7BD",
     },
   },
