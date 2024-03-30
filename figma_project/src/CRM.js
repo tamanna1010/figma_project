@@ -83,7 +83,7 @@ export default function CRM() {
                     />
                 </div>
                 {expand && <div className="h-[67%] mx-[24px] overflow-auto">
-                    <CommentsSection card_arr={[1, 2, 3, 4]} />
+                    <CommentsSection card_arr={[1]} />
                 </div>}
             </div>
             <div className="bg-app-background rounded-lg ">
@@ -92,6 +92,8 @@ export default function CRM() {
                         buttonArr={buttonArr}
                         setActiveButton={setActiveButton}
                         activeButton={activeButton}
+                        expand={expand}
+                        setExpand={setExpand}
                     />
                 </div>
             </div>
